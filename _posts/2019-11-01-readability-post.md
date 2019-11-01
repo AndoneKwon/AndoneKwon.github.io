@@ -1,9 +1,7 @@
 ---
 layout: post
-title: New Post
-date:2019-11-01
-excerpt: "First Post"
-tags:first,post
-comments: true
+title: All Posts
+excerpt: "A List of Posts"
+comments: false
 ---
 Hi my first Post
