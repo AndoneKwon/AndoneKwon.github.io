@@ -39,12 +39,11 @@ comments: true
                 </div>
             </div>
         </div>
-        {% if page.comments and site.disqus_shortname %}<div id="disqus_thread" class="animated fadeInUp"></div><!-- /#disqus_thread -->{% endif %}
+        {% if post.comments and site.disqus_shortname %}<div id="disqus_thread" class="animated fadeInUp"></div>{% endif %}
     </header>
     {% include scripts.html %}
     {% if site.mathjax == true %}
     <!-- MathJax -->
-    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
+        {% endif %}
 </body>
 </html>
