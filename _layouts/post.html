@@ -1,6 +1,5 @@
 ---
 layout: compress
-comments: true
 ---
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -39,11 +38,12 @@ comments: true
                 </div>
             </div>
         </div>
-        {% if post.comments and site.disqus_shortname %}<div id="disqus_thread" class="animated fadeInUp"></div>{% endif %}
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
     </header>
     {% include scripts.html %}
     {% if site.mathjax == true %}
     <!-- MathJax -->
-        {% endif %}
+    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
 </body>
 </html>
