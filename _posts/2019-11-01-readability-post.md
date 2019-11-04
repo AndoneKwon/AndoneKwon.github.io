@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "첫번째 블로그 글"
+title: "com_sys"
 date: 2019-11-01
 excerpt: "첫글"
 com_sys: true
