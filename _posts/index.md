@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "com_sys2"
-date: 2019-11-01
+title: "첫글"
+date: 2019-11-04
 excerpt: "첫글"
-com_sys: true
+every_day: true
 comments: true
 ---
 블로그를 처음 시작해보네요. <br>
