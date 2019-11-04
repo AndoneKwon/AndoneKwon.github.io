@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: 수업
+title: Post
 excerpt: "A List of Posts"
 comments: false
 ---
