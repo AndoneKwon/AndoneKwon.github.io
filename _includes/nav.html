@@ -91,12 +91,14 @@
 					<li><a href="{{ site.url }}/posts/">All Posts</a></li>
 					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
 				</ul>
+			</li>
+            <li>
                 <a href="#">school</a>
                 <ul class="dl-submenu">
                     <li><a href="{{ site.url }}/com_sys/">컴퓨터시스템구조</a></li>
                     <li><a href="{{ site.url }}/pl/">프로그래밍언어론</a></li>
                 </ul>
-			</li>
+            </li>
 			{% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
