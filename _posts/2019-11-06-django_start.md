@@ -47,4 +47,3 @@ tag: [django,project,tutorial]
 	django-admin.py startproject mysite .
 
 웹서버를 이제 실행해보도록 하자.
-
