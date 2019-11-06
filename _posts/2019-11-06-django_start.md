@@ -23,6 +23,6 @@ tag: [django,project,tutorial]
 
 가상환경에 장고를 설치해준다.
 
-	$pip install django~=2.0.0
+	$pip install django ~= 2.0.0
 
 위 명령어를 실행하면 설치가 완료된다.
