@@ -47,3 +47,25 @@ tag: [django,project,tutorial]
 	django-admin.py startproject mysite .
 
 웹서버를 이제 실행해보도록 하자.
+
+우선 장고를 설치한 가상환경을 열기 위해선
+
+	myvenv\Scripts\activate
+
+위 명령어를 실행해야 한다.
+
+다음으로는 기본적인 설정을 변경하자.
+
+mysite\setting.py 에 있는 정보를 적당하게 변경해준다.
+
+모든 세팅을 마친뒤 서버를 실행시켜보자.
+
+manage.py 파일이 있는 폴더로가 다음과 같은 명령어를 시켜준다.
+
+	python manage.py runserver
+
+그럼 서버가 실행된다. 127.0.0.1:8000 으로 가보자
+
+![장고 이미지](/_post/img/django_start.jpg)
+
+다음과 같은 화면이 보이며 첫번째 미션은 끝이 난다.
