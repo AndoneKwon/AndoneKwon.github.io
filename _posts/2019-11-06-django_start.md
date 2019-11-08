@@ -66,6 +66,6 @@ manage.py 파일이 있는 폴더로가 다음과 같은 명령어를 시켜준�
 
 그럼 서버가 실행된다. 127.0.0.1:8000 으로 가보자
 
-![장고 이미지](/assets/img/post_img/django_start.jpg)
+![장고 이미지](/assets/img/post_img/django_start.JPG)
 
 다음과 같은 화면이 보이며 첫번째 미션은 끝이 난다.
