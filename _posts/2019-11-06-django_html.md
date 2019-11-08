@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Html 메서드"
-date: 2019-11-06
+date: 2019-11-08
 excerpt: "html 패킷"
 django: true
 comments: true
