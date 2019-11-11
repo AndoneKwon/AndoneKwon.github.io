@@ -54,3 +54,28 @@ GET방식과는 달리 BODY에 데이터를 넣어서 보낸다.
 
 #### Content-Type
 MIME(컨텐츠의 타입)과 문자열 인코딩(UTF-8 등등)을 명시할수 있다. <span style="font-weight: bold;">multipart/form-data</span>또는 <span style="font-weight: bold;">x-www-form-urlencoded</span>로 HTML form에서는 전성된다고 알려져 있다.
+
+MIME같은 경우 개별타입으로 
+
+* text/plain
+* test/html
+* image/jpeg
+* audio/ogg
+...
+과 같이 나타낸다. 
+
+multipart 타입 같은 경우에는 서로 붙어있는 여러 개의 메세지를 포함하여 하나의 복합 메세지로 보냄.
+
+boundary는 메세지 파트를 구분하는 역할을 하며 메세지의 시작과 끝부분을 나타냄.
+
+	1. application/x-www-form-urlencoded
+	2. text/plain
+	3. multipart/form-data
+
+1번 같은 경우는 BODY에 GET방식과 동일하게 KEY와 VALUE를 쌍으로 넣으며 같은 구분자 &를 쓴다.
+
+2번 같은 경우 BODY에 단순한 text를 넣는다.
+
+3번 같은 경우는 파일 전송을 할 때 많이 사용 되는데 BODY의 데이터를 바이너리 데이터를 넣는다는 것을 알려준다.
+
+자바와 같이 OOP 프로그래밍에서는 BODY데이터를 InputStream/OutputStream클래스를 통해서 읽고 쓰기를 한다.
