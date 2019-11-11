@@ -42,3 +42,15 @@ HTTP 헤더에는 HTTP 메서드 방식중 어떤것을 사용했는지 클라�
 URL에 이런 값들을 붙이므로 헤더에 포함되어 서버에 요청하고 Body에는 특별히 넣을 내용이 없기 때문에 빈 상태로 보내지게 된다.
 
 URL로 표현되다 보니 특정 페이지를 다른사람에게 접속 할 수 있게 한다.
+
+간단한 데이터를 넣도록 설계했기 떄문에 데이터를 보내는 양의 한계가 있다.
+
+### Post 방식
+POST방식은 데이터 전송을 기반으로 한 요청 메서드이다.
+
+GET방식과는 달리 BODY에 데이터를 넣어서 보낸다.
+
+그래서 BODY를 설명하는 Content-Type라는 헤더 필드가 들어가고 어떤 데이터 타입인지 명시한다.
+
+#### Content-Type
+MIME(컨텐츠의 타입)과 문자열 인코딩(UTF-8 등등)을 명시할수 있다. <span style="font-weight: bold;">multipart/form-data</span>또는 <span style="font-weight: bold;">x-www-form-urlencoded</span>로 HTML form에서는 전성된다고 알려져 있다.
