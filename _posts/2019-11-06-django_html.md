@@ -79,3 +79,10 @@ boundary는 메세지 파트를 구분하는 역할을 하며 메세지의 시�
 3번 같은 경우는 파일 전송을 할 때 많이 사용 되는데 BODY의 데이터를 바이너리 데이터를 넣는다는 것을 알려준다.
 
 자바와 같이 OOP 프로그래밍에서는 BODY데이터를 InputStream/OutputStream클래스를 통해서 읽고 쓰기를 한다.
+
+### PUT
+서버에게 resource를 업데이트 하거나 resource가 없다면 새로운 resource를 생성해 달라고 요청한다. 회원정보 수정 등에 사용된다.
+PUT은 PATCH와 비교해서 전체 데이터를 교체하는 차이점이 있다. 예를들어 user가 data를 user.id user.name이라 하면 회원정보 수정시 put은 primary key인 id를 찾아 name만 업데이트 해도 모든 필드를 업데이트 한다.
+
+### PATCH
+서버에게 resource의 업데이트 요청을 한다. 주로 회원정보 수정등에 사용되는데 PUT과는 달리 부분 데이터만 업데이트 한다.
