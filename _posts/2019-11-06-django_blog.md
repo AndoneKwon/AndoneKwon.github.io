@@ -60,9 +60,31 @@ def는 파이썬에서 method를 정의하는 키워드이다.
 	이제 장고를 데이터베이스를 반영할 수 있도록 만들어 본다.
 	(myvenv) ~/djangogirls$ python manage.py makemigrations blog
 
-다음과 같이 하면 migration file 이라는 것이 만들어 지고 python manage.py migrate blog명령어를 통해 실제 데이터베이스에 메델 추가를 반연하자.
+다음과 같이 하면 migration file 이라는 것이 만들어 지고 python manage.py migrate blog명령어를 통해 실제 데이터베이스에 모델 추가를 반영하자.
 
+자 이제 블로그에 글을 올려볼 차례다.
 
+blog폴더 하위의 admin.py파일에 다음을 추가해준다.
+
+	from .models import admin
+
+	admin.site.register(Post)
+
+관리자 페이지에서 우리가 만든 Post 모델을 등록해줘야 한다.
+
+이후 서버를 실행한 뒤,
+
+htt://127.0.0.1:8000/admin/
+
+으로 들어가보면 로그인창이 뜰것이다.
+
+그럼 다시 서버를 종료하고 python manage.py createsuperuser 하고 superuser를 생성해준다.
+
+![장고 admin](/assets/img/post_img/django_admin.JPG)
+
+여기서 Posts를 누르면 게시물을 쓸수가 있는데 게시물을 작성해보자.
+
+다음은 배포를 진행해보도록 하겠다.
 
 
 <hr>
