@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring boot DB설정 timezone 오류 해결"
-date: 2020-01-04
+date: 2020-04-06
 excerpt: "Timezone 오류 해결"
 spring_boot: true
 comments: true
