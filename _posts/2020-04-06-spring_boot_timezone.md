@@ -3,7 +3,7 @@ layout: post
 title: "Spring boot DB설정 timezone 오류 해결"
 date: 2020-01-04
 excerpt: "Timezone 오류 해결"
-smile: true
+spring_boot: true
 comments: true
 tag: [timezone에러]
 ---
