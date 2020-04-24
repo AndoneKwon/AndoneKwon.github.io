@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "개인프로젝트"
-date: 2020-01-04
-excerpt: "Web application Framework 별 특징"
+date: 2020-01-15
+excerpt: "스마일게이트 개인프로젝트"
 smile: true
 comments: true
 tag: [스마일게이트,서버캠프,스마일게이트온라인서버캠프,SNS프로젝트]
