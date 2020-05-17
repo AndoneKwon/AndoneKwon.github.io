@@ -18,7 +18,7 @@ tag: [코딩테스트, 알고리즘]
 
 이 경우에는 트리의 끝 점까지 가야해서 DFS로 풀어야한다.
 
-![장고 이미지](/assets/img/post_img/targetNum.png)
+![targetnum](/assets/img/post_img/targetNum.png)
 
 대략 위와 같은 이미지인데 대충..알아 보면 될것 같다..
 
@@ -53,3 +53,8 @@ tag: [코딩테스트, 알고리즘]
         return answer;
     }
 
+<hr>
+
+## References
+
+https://programmers.co.kr/learn/courses/30/parts/12421
