@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "프로그래머스 target number"
-date: 2020-04-06
+date: 2020-05-17
 excerpt: ""
 algorithm: true
 comments: true
