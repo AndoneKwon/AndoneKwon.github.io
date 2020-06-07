@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Spring boot File upload"
-date: 2020-04-06
+date: 2020-06-08
 excerpt: "스프링부트 파일업로드"
 spring_boot: true
 comments: true
-tag: [timezone에러]
+tag: [spring_boot,file_uploads]
 ---
 # Spring boot File upload
 
